@@ -1,0 +1,58 @@
+.lightbox-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: yellow;
+    padding: 7%;
+    box-sizing: border-box;
+}
+
+.left-wrapper,
+.right-wrapper {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.close-wrapper {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.close-wrapper a {
+    text-decoration: none;
+    color: #000;
+}
+
+input.field {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+input.field {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.second-line {
+    font-size: 20px;
+}
+
+.text-wrapper {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-wrapper {
+    width: 20%;
+}
+
+.left-wrapper {
+    margin-right: 22px;
+}
